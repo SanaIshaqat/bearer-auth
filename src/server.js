@@ -21,6 +21,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
+app.get('/', proofOfLife);
+function proofOfLife(req, res) {
+  res.status(200).json('SERVER IS ALIVE!');
+}
 app.use(authRoutes);
 
 // Catchalls
