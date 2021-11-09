@@ -7,7 +7,7 @@ Author: Sana Ishaqat
 
 [back-end (heroku)](https://sana-bearer-auth-401.herokuapp.com)
 
-[PR Link]https://github.com/SanaIshaqat/bearer-auth/pull/1)
+[PR Link](https://github.com/SanaIshaqat/bearer-auth/pull/1)
 
 ### Setup
 .env requirements
